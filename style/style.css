@@ -1,0 +1,30 @@
+/*body*/
+
+body {
+
+    font-family: sans-serif;
+
+}
+
+/*Containers*/
+
+.theLaws {
+
+    padding: 7% 15%;
+
+}
+
+/*Laws*/
+
+#laws {
+    position: relative;
+}
+
+.LawImages{
+    padding: 0px 45px 15px 10px;
+    margin: auto;
+}
+
+.WattImages{
+    padding-left: 20px;
+}
