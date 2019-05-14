@@ -13,3 +13,16 @@ function calculateOhm() {
 }
 
 /* Calculate Watts */
+
+function calculateWatts() {
+  var voltagew = document.getElementById("voltageVw");
+  var resistancew = document.getElementById("resistanceRw");
+  var currentw = document.getElementById("currentCw");
+
+
+  if(currentw.value > 0 && resistancew.value > 0 && voltagew.value == 0){alertboxw.innerHTML = Math.pow(currentw.value, 2) * resistancew.value + " (P)";}
+  if(voltagew.value > 0 && currentw.value > 0 && resistancew.value == 0){alertboxw.innerHTML = voltagew.value * currentw.value + " (P)";}
+  if(voltagew.value > 0 && resistancew.value > 0 && currentw.value == 0){alertboxw.innerHTML = Math.pow(voltagew.value, 2) / resistancew.value + " (P)";}
+  else if(voltagew.value > 0 && resistancew.value > 0 && currentw.value > 0){alertboxw.innerHTML = "Invalid values, please try again";}
+  
+}
