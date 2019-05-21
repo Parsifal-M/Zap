@@ -10,7 +10,7 @@ function calculateOhm() {
   if(current.value > 0 && resistance.value > 0 && voltage.value == 0){alertbox.innerHTML = current.value * resistance.value  + " (V)";}
   else if(voltage.value > 0 && resistance.value > 0 && current.value > 0){alertbox.innerHTML = "Invalid values, please try again";}
   
-}
+};
 
 /* Calculate Watts */
 
@@ -25,4 +25,4 @@ function calculateWatts() {
   if(voltagew.value > 0 && resistancew.value > 0 && currentw.value == 0){alertboxw.innerHTML = Math.pow(voltagew.value, 2) / resistancew.value + " (P)";}
   else if(voltagew.value > 0 && resistancew.value > 0 && currentw.value > 0){alertboxw.innerHTML = "Invalid values, please try again";}
   
-}
+};
