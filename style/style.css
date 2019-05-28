@@ -21,10 +21,15 @@ body {
 }
 
 .LawImages{
+    align-self: auto;
     padding: 0px 45px 15px 10px;
     margin: auto;
 }
 
 .WattImages{
-    padding-left: 20px;
+    align-self: auto;
+    padding: 0px 45px 15px 10px;
+    margin: auto;
 }
+
+/* Footer */
